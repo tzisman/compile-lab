@@ -120,6 +120,15 @@ npm run dev    # http://localhost:5173
 | .NET SDK | 9.0 | Server |
 | SQL Server | LocalDB / Express / full | Server |
 | EF Core CLI | `dotnet tool install --global dotnet-ef` | Server (migrations) |
+| **Docker** | Docker Desktop / Engine (running) | Server — **required** to run & grade student code in sandboxed containers |
+
+> **Docker is mandatory for the grading engine.** Student submissions are compiled and executed inside isolated containers, so the two grader images must be built once before running the API:
+>
+> ```bash
+> # from the server solution folder (CompileLab.Service/Docker)
+> docker build -t tester-csharp:1.0 ./csharp
+> docker build -t tester-python:1.0 ./python
+> ```
 
 ---
 
