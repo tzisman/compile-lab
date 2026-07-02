@@ -1,0 +1,6 @@
+[submodule "client"]
+	path = client
+	url = https://github.com/tzisman/compilelab-client.git
+[submodule "server"]
+	path = server
+	url = https://github.com/tzisman/compileLab.git
