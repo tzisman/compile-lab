@@ -8,23 +8,16 @@ CompileLab is a full-stack educational platform where **instructors author progr
 
 [![React](https://img.shields.io/badge/Client-React_19-61DAFB?logo=react&logoColor=white)](https://github.com/tzisman/compilelab-client)
 [![.NET](https://img.shields.io/badge/Server-.NET_9-512BD4?logo=dotnet&logoColor=white)](https://github.com/tzisman/compileLab)
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?logo=microsoftsqlserver&logoColor=white)](https://www.microsoft.com/sql-server)
+
 
 </div>
 
 ---
 
-## Repositories
+## 🔗 Project Links
 
-This is a multi-repository project. Each part is developed and versioned independently:
-
-| Repository | Stack | Description |
-|------------|-------|-------------|
-| 🎨 **[compilelab-client](https://github.com/tzisman/compilelab-client)** | React 19 · TypeScript · Vite · Redux Toolkit · Tailwind | Single-page web front-end for students and instructors. |
-| ⚙️ **[compileLab](https://github.com/tzisman/compileLab)** | .NET 9 · ASP.NET Core · EF Core · SQL Server · JWT | Layered REST Web API and data layer. |
-
-> In this workspace the two repositories live side by side under `compilelab-client/` and `compilelab-server/`.
+- 📁 **[Frontend Repository](https://github.com/tzisman/compilelab-client)** — React 19 + TypeScript + Redux Toolkit client (the UI students and instructors use).
+- 📁 **[Backend Repository](https://github.com/tzisman/compileLab)** — ASP.NET Core 9 Web API + EF Core (data & business logic).
 
 ---
 
@@ -36,13 +29,13 @@ This is a multi-repository project. Each part is developed and versioned indepen
 
 | Home | Login | Sign Up |
 |------|-------|---------|
-| ![Home page](./screenshots/home.png) | ![Login page](./screenshots/login.png) | ![Sign up page](./screenshots/signup.png) |
+| ![Home page](https://github.com/tzisman/compilelab/releases/download/assets/home.png) | ![Login page](https://github.com/tzisman/compilelab/releases/download/assets/login.png) | ![Sign up page](https://github.com/tzisman/compilelab/releases/download/assets/signup.png) |
 
 ### In the App
 
 | Course Catalog | Instructor Courses | Student Dashboard |
 |----------------|--------------------|-------------------|
-| ![Course catalog](./screenshots/course-catalog.png) | ![Instructor courses](./screenshots/instructor-courses.png) | ![Student dashboard](./screenshots/my-courses.png) |
+| ![Course catalog](https://github.com/tzisman/compilelab/releases/download/assets/course-catalog.png) | ![Instructor courses](https://github.com/tzisman/compilelab/releases/download/assets/instructor-courses.png) | ![Student dashboard](https://github.com/tzisman/compilelab/releases/download/assets/my-courses.png) |
 
 ---
 
