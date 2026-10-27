@@ -17,7 +17,7 @@ CompileLab is a full-stack educational platform where **instructors author progr
 ## 🔗 Project Links
 
 - 📁 **[Frontend Repository](https://github.com/tzisman/compilelab-client)** — React 19 + TypeScript + Redux Toolkit client (the UI students and instructors use).
-- 📁 **[Backend Repository](https://github.com/tzisman/compileLab)** — ASP.NET Core 9 Web API + EF Core (data & business logic).
+- 📁 **[Backend Repository](https://github.com/tzisman/compilelab-server)** — ASP.NET Core 9 Web API + EF Core (data & business logic).
 
 ---
 
